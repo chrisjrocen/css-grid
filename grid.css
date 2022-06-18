@@ -1,0 +1,34 @@
+main {
+  display: grid;
+  margin: 30%;
+  width: 50%;
+  grid-template-areas:
+    "a a"
+    "b c"
+    "b c"
+    "d d";
+}
+main div {
+  padding: 2em;
+  margin: 2px;
+}
+.item-a {
+  background-color: orangered;
+  grid-area: a;
+  height: 2em;
+}
+.item-b {
+  background-color: yellow;
+  grid-area: b;
+  height: 4em;
+}
+.item-c {
+  background-color: green;
+  grid-area: c;
+  height: 4em;
+}
+.item-d {
+  background-color: lightseagreen;
+  grid-area: d;
+  height: 2em;
+}
